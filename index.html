@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Andrea Pintauro</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header>
+    <div class="wrap header-row">
+      <a href="index.html" class="brand-mark" aria-label="Andrea Pintauro">Andrea Pintauro</a>
+      <nav class="main-nav" aria-label="Navigazione principale">
+        <a href="#about">About</a>
+        <a href="#work">Work</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+
+  <!-- HERO SECTION: PLACEHOLDER VIDEO FULLSCREEN 1920x1080 SOTTO L'HEADER -->
+  <section class="hero-video-section">
+    <!-- =================================================================
+         PLACEHOLDER VIDEO 1920x1080 FULLSCREEN
+         Per sostituire con il tuo video mp4:
+         Rimuovi il div class="placeholder-badge" e decommenta il tag <video> qui sotto:
+         
+         <video autoplay loop muted playsinline poster="poster.jpg">
+           <source src="il-tuo-video.mp4" type="video/mp4">
+         </video>
+         ================================================================= -->
+    <div class="video-placeholder">
+      <div class="placeholder-badge">
+        📹 PLACEHOLDER VIDEO FULLSCREEN (1920x1080)<br>
+        <small style="opacity:0.7; text-transform:none;">replace this block with your video file</small>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- ABOUT SECTION -->
+  <section class="about-section" id="about">
+    <div class="wrap">
+      <div class="about-grid">
+        <div class="about-body reveal">
+          <p>Andrea Pintauro is a freelance graphic designer working across visual identity, editorial design and type design.</p>
+          <p>His work explores the relationship between images and layout, with a focus on typography. Focusing on text formatting,<br>image post production, ryhtm and overall visual coherence of the project, developing solutions for both print and digital media.</p>
+        </div>
+        <div class="about-photo-placeholder reveal">
+          <img src="immagini/about.webp" alt="Andrea Pintauro">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SEZIONE PORTFOLIO -->
+  <section class="work-section" id="work">
+    <div class="wrap">
+      <div class="portfolio-grid" id="portfolioGrid">
+
+        <a href="progetto1.html" class="project-tile reveal">
+          <div class="tile-media dishlist-thumbnail">
+            <img src="immagini/dishlist_miniatura.webp" alt="DishList miniature" loading="lazy">
+          </div>
+          <div class="tile-info">
+            <h3 class="tile-title">Dishlist, 2026</h3>
+          </div>
+        </a>
+
+        <a href="progetto2.html" class="project-tile reveal">
+          <div class="tile-media dishlist-thumbnail">
+            <img src="immagini/entrepanes_miniatura.webp" alt="Entre Panes miniature" loading="lazy">
+          </div>
+          <div class="tile-info">
+            <h3 class="tile-title">Entre Panes, 2026</h3>
+          </div>
+        </a>
+
+        <a href="progetto3.html" class="project-tile reveal">
+          <div class="tile-media">
+            <div class="img-placeholder">
+              <span>📷 placeholder image / video 3</span>
+            </div>
+          </div>
+          <div class="tile-info">
+            <h3 class="tile-title">Convocatoria Abierta, 2024</h3>
+          </div>
+        </a>
+
+        <a href="progetto1.html" class="project-tile reveal">
+          <div class="tile-media">
+            <div class="img-placeholder">
+              <span>📷 placeholder image / video 4</span>
+            </div>
+          </div>
+          <div class="tile-info">
+            <h3 class="tile-title">Serenissima, 2024</h3>
+          </div>
+        </a>
+
+        <a href="progetto2.html" class="project-tile reveal">
+          <div class="tile-media">
+            <div class="img-placeholder">
+              <span>📷 placeholder image / video 5</span>
+            </div>
+          </div>
+          <div class="tile-info">
+            <h3 class="tile-title">Food Route, 2023</h3>
+          </div>
+        </a>
+
+        <a href="progetto3.html" class="project-tile reveal">
+          <div class="tile-media">
+            <div class="img-placeholder">
+              <span>📷 placeholder image / video 6</span>
+            </div>
+          </div>
+          <div class="tile-info">
+            <h3 class="tile-title">Type in Context, 2026</h3>
+          </div>
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT SECTION -->
+  <section class="contact-section" id="contact">
+    <div class="wrap contact-grid reveal">
+      <div class="contact-intro">
+        <h2>Let's work together!</h2>
+        <p>please send an email to:</p>
+        <a href="mailto:andrea00pintauro@gmail.com" class="email-link">andrea00pintauro@gmail.com</a>
+      </div>
+      <div class="services-list">
+        <p>Services:</p>
+        <p class="service-items">Graphic Design<br>Art Direction<br>Visual Identity<br>Design for Publishing<br>Information Design<br>Type Design</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="home-footer">
+    <div class="wrap footer-grid">
+      <div class="footer-package footer-credit">
+        <strong>© Andrea Pintauro, 2026</strong>
+      </div>
+      <div class="footer-package footer-info">
+        <span>Full CV Under Request! ☺</span>
+        <span>Composed in Stack Sans (Koto, 2025)</span>
+      </div>
+      <div class="footer-package footer-clock">
+        <span>Rome, Italy ✵ <span id="romeDate"></span></span>
+        <span><span id="feelsLike"></span> ✵ <span id="romeTime"></span> <span id="romeGmt"></span></span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
